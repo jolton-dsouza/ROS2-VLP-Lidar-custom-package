@@ -3,7 +3,7 @@ This repo will help you to create custom ROS messages for VLP-16 and VLP-32 lida
 
 ## Dependencies
 - Ubuntu >= 16.04
-- ROS2 - Crystal
+- ROS2 - Crystal (see 'ros2CrystalInstall.bash' file)
 - Python3
 
 ## Python packages 
