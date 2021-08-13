@@ -1,0 +1,80 @@
+---
+Sensors:
+  Radars:
+  - id: ARS430_0
+    ip: "10.1.1.22"
+    mounting_parameter:
+      X: 0 #Y 
+      Y: 2.42 #X
+      Z: 0.32
+    orientation: 0
+
+  - id: ARS430_1
+    ip: "10.1.1.26"
+    mounting_parameter:
+      X: 0.786
+      Y: 2.187
+      Z: 0.391
+    orientation: -45
+
+  - id: ARS430_2
+    ip: "10.1.1.25"
+    mounting_parameter:
+      X: -0.824
+      Y: 2.16
+      Z: 0.397
+    orientation: 45
+
+  - id: ARS430_3
+    ip: "10.1.1.27"
+    mounting_parameter:
+      X: -0.634
+      Y: -2.435
+      Z: 0.508
+    orientation: 0
+
+  - id: ARS430_4
+    ip: "10.1.1.28"
+    mounting_parameter:
+      X: 0.633
+      Y: -2.443
+      Z: 0.508
+    orientation: 0
+
+  - id: ARS430_5
+    ip: "10.1.1.21"
+    mounting_parameter:
+      X: -0.815
+      Y: -2.201
+      Z: 0.6125
+    orientation: 90
+
+  - id: ARS430_6
+    ip: "10.1.1.23"
+    mounting_parameter:
+      X: 0.815
+      Y: -2.196
+      Z: 0.606
+    orientation: -90
+  Lidars:
+  - id: VLP-16
+    ip: "10.1.1.59"
+    mounting_parameter:
+      X: -0.014
+      Y: 2.422
+      Z: 0.61
+    orientation: 0
+
+  # - id: VLP-32
+  #   ip: "10.1.1.69"
+  #   mounting_parameter:
+  #     X: 0.038
+  #     Y: -0.479
+  #     Z: 1.899
+  #   orientation: 0
+
+
+PC_IP : "10.1.1.79"
+RADAR_DESTINATION_PORTS : [31122]
+RADAR_DESTINATION_IPS : ["239.192.22.10"]
+SEND_STATUS : false
